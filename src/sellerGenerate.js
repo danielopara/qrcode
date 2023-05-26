@@ -21,7 +21,7 @@ displayQRCode.addEventListener('submit', (e)=>{
     const name = displayQRCode.name.value;
     const description = displayQRCode.description.value;
     const time =  year + "/" + month + "/" + day + " " + hrs + ":" + mins + ":" + secs +" :" + date.getMilliseconds()
-    const pay = `time: ${time} name: ${name} amount: ${amount} description: ${description}`
+    const pay = `time: ${time} amount: ${amount}   name: ${name}  description: ${description} `
     
 
     if (amount === '' && name === '' && description=== '') {
