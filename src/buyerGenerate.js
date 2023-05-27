@@ -6,7 +6,7 @@ const buyerQRCode = document.querySelector('.buyerQR')
   buyerQRCode.addEventListener('submit', (e)=>{
     e.preventDefault();
     const password = buyerQRCode.password.value;
-    const text = "transfer done"
+    const text = "transfer completed"
     if(password === ''){
         alert('password required')
     } else {
